@@ -44,7 +44,7 @@ func main() {
 	})
 
 	port := GetEnvVariableOrDefault("PORT", DEFAULT_PORT)
-	host := fmt.Sprintf("%s:%s", "localhost", port)
+	host := fmt.Sprintf("%s:%s", "", port)
 	log.Printf("server setup complete")
 	log.Printf("running on : %s", host)
 	log.Fatal(http.ListenAndServe(host, nil))
