@@ -9,5 +9,5 @@ const (
 	DEFAULT_MONGO_PASSWORD = "WUMglwNBaydH8Yvu"
 	DEFAULT_MONGO_DATABASE = "getir-case-study"
 	DEFAULT_MONGO_HOST     = "challenge-xzwqd.mongodb.net"
-	DEFAULT_PORT           = "8080"
+	DEFAULT_PORT           = "3000"
 )
